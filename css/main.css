@@ -2,7 +2,7 @@ body {
     background-color: #eee;
 }
 
-.caja{
+.caja {
     margin: 8px;
     padding: 8px;
     border-style: solid;
@@ -10,4 +10,10 @@ body {
     border-color: #faa;
     border-left: 5px solid #afa;
     background-color: #aaf;
+    /**/
+    border-radius: 8px;
+    border-bottom-left-radius: 20px;
+    height: 100px;
+    width: 100px;
+    color: #a3a52f;
 }
