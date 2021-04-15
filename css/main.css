@@ -1,24 +1,13 @@
 body {
-    background-color: #eeee;
-    color: #ff0000;
-    margin: 20px;
+    background-color: #eee;
 }
 
-.parrafo{
-    color: yellowgreen;
-    font-size: 10vh;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#span{
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.span3{
-    color:blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-style: oblique;
+.caja{
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #faa;
+    border-left: 5px solid #afa;
+    background-color: #aaf;
 }
