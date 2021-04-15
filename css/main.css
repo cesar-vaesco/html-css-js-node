@@ -12,27 +12,29 @@ h1 {
     text-decoration: underline;
 }
 
-p {
-    color: #222fa3;
-    text-align: justify;
-    /*Indentar primer renglon*/
-    text-indent: 40px;
-    /*Tamaño de letra*/
-    font-size: 1.5em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*Ancho de la letra depende del soporte del tipo de letra declarado en font-family*/
-    font-weight: 700;
-    /*Separación entre líneas del parrafo*/
-    line-height: 1.7;
-    /*Espacio entre palabras*/
-    word-spacing: 10px;
-    /*
-    text-shadow:
-    primer valor - desplazamiento de texto a la derecha
-    segundo valor - desplazamiento hacia abajo
-    °°Opcional - tercer valor - nivel de difuminación
-    cuarto valor - color
-    */
-    text-shadow: 1px 2px 8px rgba(0, 0, 0, .8);
-    margin: 0px 15px;
+a {
+    color: hotpink;
+}
+
+/*Color que se mostrara antes de hacer uso del link*/
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+/*Cuando el link ya ha sido usado*/
+a:visited {
+    color: blue;
+}
+
+/*Al pasar el cursor sobre el link*/
+a:hover {
+    color: #aa3455;
+    text-decoration: underline;
+}
+
+/*Cuando se le da click al link*/
+a:active {
+    color: black;
+    text-decoration: overline;
 }
