@@ -1,5 +1,6 @@
 body {
     background-color: #eee;
+    margin: 10px;
 }
 
 h1 {
@@ -14,26 +15,35 @@ h1 {
 
 a {
     color: hotpink;
+    background-color: #f00;
+    border: solid 2px rgb(199, 37, 37);
+    border-radius: 5px;
+    padding: 15px;
 }
 
 /*Color que se mostrara antes de hacer uso del link*/
+
 a:link {
     color: pink;
     text-decoration: none;
 }
 
 /*Cuando el link ya ha sido usado*/
+
 a:visited {
-    color: blue;
+    color: rgb(250, 250, 250);
 }
 
 /*Al pasar el cursor sobre el link*/
+
 a:hover {
     color: #aa3455;
     text-decoration: underline;
+    background-color: #0f0609;
 }
 
 /*Cuando se le da click al link*/
+
 a:active {
     color: black;
     text-decoration: overline;
