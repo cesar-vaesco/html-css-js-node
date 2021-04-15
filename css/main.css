@@ -3,17 +3,38 @@ body {
 }
 
 .caja {
-    margin: 8px;
-    padding: 8px;
+    background-color: #ffff;
     border-style: solid;
-    border-width: 3px;
-    border-color: #faa;
-    border-left: 5px solid #afa;
-    background-color: #aaf;
-    /**/
-    border-radius: 8px;
-    border-bottom-left-radius: 20px;
-    height: 100px;
-    width: 100px;
-    color: #a3a52f;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+
+.contenido {
+    padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+.aceptar {
+    background-color: rgb(26, 84, 194);
+    border: none;
+    color: #ffff;
+    padding: 3px;
+}
+
+.cancelar {
+    background-color: rgb(126, 136, 155);
+    border: none;
+    color: #ffff;
+    padding: 3px;
 }
