@@ -6,16 +6,22 @@ h1 {
     color: #aa3455;
     text-align: center;
     font-size: 50px;
+    font-style: italic;
+    /*Ancho de la letra*/
+    font-weight: bold;
     text-decoration: underline;
 }
 
 p {
     color: #222fa3;
     text-align: justify;
-    text-indent: 40px;
     /*Indentar primer renglon*/
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    /*Tamaño de letra*/
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Ancho de la letra depende del soporte del tipo de letra declarado en font-family*/
+    font-weight: 700;
     /*Separación entre líneas del parrafo*/
     line-height: 1.7;
     /*Espacio entre palabras*/
@@ -27,24 +33,6 @@ p {
     °°Opcional - tercer valor - nivel de difuminación
     cuarto valor - color
     */
-    text-shadow: 1px 2px 8px rgba(0, 0,0, .8);
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, .8);
     margin: 0px 15px;
-}
-
-a {
-    margin-left: 100px;
-    /*Espacio entre letras*/
-    letter-spacing: 5px;
-    text-decoration: none;
-    /* capitalize -> Primeras letras en mayusculas
-    uppercase - > Mayusculas
-    lowercase -> Todas letras en minusculas
-    */
-    text-transform: capitalize;
-    font-size: 40px;
-    color: #aa3455;
-}
-
-.a {
-    margin-top: 10px;
 }
