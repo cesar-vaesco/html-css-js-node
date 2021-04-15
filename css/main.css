@@ -2,39 +2,39 @@ body {
     background-color: #eee;
 }
 
-.caja {
-    background-color: #ffff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ccc;
-    border-radius: 2px;
-    border-top: solid 0px;
+h1 {
+    color: #aa3455;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
 }
 
-.contenido {
-    padding: 10px;
+p {
+    color: #222fa3;
+    text-align: justify;
+    text-indent: 40px;
+    /*Indentar primer renglon*/
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Separación entre líneas del parrafo*/
+    line-height: 1.7;
+    margin: 0px 15px;
 }
 
-.header {
-    padding: 10px;
-    border-bottom: solid 1px #eee;
+a {
+    margin-left: 100px;
+    /*Espacio entre letras*/
+    letter-spacing: 5px;
+    text-decoration: none;
+    /* capitalize -> Primeras letras en mayusculas
+    uppercase - > Mayusculas
+    lowercase -> Todas letras en minusculas
+    */
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #aa3455;
 }
 
-.footer {
-    padding: 10px;
-    border-top: solid 1px #eee;
-}
-
-.aceptar {
-    background-color: rgb(26, 84, 194);
-    border: none;
-    color: #ffff;
-    padding: 3px;
-}
-
-.cancelar {
-    background-color: rgb(126, 136, 155);
-    border: none;
-    color: #ffff;
-    padding: 3px;
+.a{
+    margin-top: 10px;
 }
