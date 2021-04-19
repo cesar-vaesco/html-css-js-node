@@ -12,3 +12,15 @@ h1 {
     font-weight: bold;
     text-decoration: underline;
 }
+
+#invisible {
+    display: none;
+}
+
+.span{
+    display: block;
+}
+
+.div{
+    display: inline;
+}
