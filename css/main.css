@@ -12,36 +12,3 @@ h1 {
     font-weight: bold;
     text-decoration: underline;
 }
-
-table {
-    background-color: white;
-    /*Elimina el spacio existente entre las filas y columnas */
-    border-collapse: collapse;
-    width: 100%;
-}
-
-/*se indica que una fila tendra el color declarado y la otra no*/
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-tr:nth-child(odd) {
-    background-color: black;
-    color: #f2f2f2;
-}
-
-th {
-    background-color: #4caf50;
-    color: #f2f2f2;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    padding: 5px 0px;
-}
-
-td {
-    padding-left: 15px;
-    border: solid 1px #ddd;
-    text-align: center;
-}
