@@ -11,16 +11,23 @@ h1 {
     /*Ancho de la letra*/
     font-weight: bold;
     text-decoration: underline;
+    position: fixed;
 }
 
-#invisible {
-    display: none;
+header {
+    position: fixed;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-.span{
-    display: block;
-}
-
-.div{
-    display: inline;
+p {
+    /*Indicado ancho máximo del parrafo*/
+    max-width: 500px;
+    background-color: red;
+    color: white;
+    /* margin: auto;  -- Centra el elemento y su contenido pero el elemento
+    debe de contar con un display block*/
+    margin: auto;
+    position: relative;
+    left: -55px;
 }
