@@ -13,15 +13,18 @@ h1 {
     text-decoration: underline;
 }
 
-#over {
-    /*Ancho fijo*/
-    width: 100px;
-    height: 100px;
-    /*overflow: hidden; esconde el contenido que no cabe en la caja*/
-    /*overflow: scroll; permite mostrar unas barritas y poder observar el contenido, al mismo
-    tiempo se puede observar todo el contenido */
-    /*overflow: auto; -- Agrega scrollbar a el contenido en caso de ser necesario*/
-    /* overflow-x: scroll; -- agrega un scroll al eje x sea o no que
-    el contenido ocupe una scrollbar  */
-    overflow-x: scroll;
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+img:hover {
+    /*Opacidad recibe valores de 0(trasparente) - 1(solido)*/
+    opacity: .5;
+}
+
+div p {
+    color: #f00;
+    max-width: 500px;
+    position: relative;
 }
