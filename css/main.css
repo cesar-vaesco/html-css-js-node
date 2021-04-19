@@ -11,23 +11,17 @@ h1 {
     /*Ancho de la letra*/
     font-weight: bold;
     text-decoration: underline;
-    position: fixed;
 }
 
-header {
-    position: fixed;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-p {
-    /*Indicado ancho máximo del parrafo*/
-    max-width: 500px;
-    background-color: red;
-    color: white;
-    /* margin: auto;  -- Centra el elemento y su contenido pero el elemento
-    debe de contar con un display block*/
-    margin: auto;
-    position: relative;
-    left: -55px;
+#over {
+    /*Ancho fijo*/
+    width: 100px;
+    height: 100px;
+    /*overflow: hidden; esconde el contenido que no cabe en la caja*/
+    /*overflow: scroll; permite mostrar unas barritas y poder observar el contenido, al mismo
+    tiempo se puede observar todo el contenido */
+    /*overflow: auto; -- Agrega scrollbar a el contenido en caso de ser necesario*/
+    /* overflow-x: scroll; -- agrega un scroll al eje x sea o no que
+    el contenido ocupe una scrollbar  */
+    overflow-x: scroll;
 }
