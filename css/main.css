@@ -2,6 +2,20 @@ body {
     background-color: #eee;
 }
 
+.grid {
+    /* display: inline-grid; */
+    display: grid;
+    /*Indicando tamaño de filas*/
+    /* grid-template-rows: 50px 100px; */
+    /*Indicando tamalo de lascolumnas*/
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.element {
+    background-color: #ff0000;
+    color: #fff;
+}
+
 table, td {
     border-collapse: collapse;
     background-color: rgb(0, 255, 0, .1);
@@ -17,12 +31,6 @@ th {
     padding: 5px 5px;
 }
 
-.grid {
-    /* display: grid; */
-    display: inline-grid;
-}
-
-.element {
-    background-color: #ff0000;
-    color: #fff;
+tr:nth-child(even) {
+    background-color: #ffffff;
 }
