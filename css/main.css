@@ -2,48 +2,67 @@ body {
     background-color: #eee;
 }
 
-.dropdown {
-    position: relative;
+.box {
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: min-content;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
     display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 1em;
+
 }
 
-.dropdown-button {
-    background-color: #4CAf50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+input[type=submit] {
+    width: 100%;
+    background-color: #4cAf50;
+    color: #eee;
+    padding: 14px 20px;
+    margin: 8px 0;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    margin-left: 5px;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin-left: 5px;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-button {
-    background-color: #3e8e41;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+input[type=submit]:hover {
+    width: 100%;
+    background-color: rgb(178, 178, 180);
+    color: #4cAf50;
+    padding: 14px 20px;
+    margin: 8px 0;
     border: none;
-    border-radius: 0px 10px 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
 }
