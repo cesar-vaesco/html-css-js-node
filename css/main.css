@@ -50,5 +50,31 @@ body {
 .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-areas: "header" "navbar" "main" "sidebar" "footer";
+    grid-template:
+                    "header" 100px
+                    "navbar" 50px
+                    "main" auto
+                    "sidebar" 100px
+                    "footer" 100px;
+}
+
+/*Para tablets*/
+
+@media(min-width: 600px) {
+    .grid-container {
+        /* background-color: #0000ff; */
+        /* grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px; */
+        /*     grid-template-areas:
+                            "header header"
+                            "navbar navbar"
+                            "sidebar main"
+                            "footer footer"; */
+        grid-template:
+                        "header header" 100px
+                        "navbar navbar" 50px
+                        "sidebar main" auto
+                        "footer footer" 100px /
+                         200px   auto;
+    }
 }
