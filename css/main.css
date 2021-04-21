@@ -5,10 +5,10 @@ body {
 .grid {
     /* display: inline-grid; */
     display: grid;
-    /*Indicando tamaño de filas*/
-    /* grid-template-rows: 50px 100px; */
-    /*Indicando tamalo de lascolumnas*/
-    grid-template-columns: 1fr 2fr 3fr;
+    /* grid-template-rows: minmax(100px, auto); */
+    grid-template-rows: repeat(2, 50px);
+    /* grid-template-columns: minmax(auto, 50%) 1fr 2em; */
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .element {
