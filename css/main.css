@@ -240,3 +240,50 @@ ul.about-content {
         padding: 50px 30px;
     }
 }
+
+/*Services Area*/
+
+#services {
+    background-color: #ddd;
+}
+
+ul.services-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.services-content li i {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+}
+
+.services-content li h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.services-content li p {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .services-content li {
+        flex-basis: 100%;
+        margin-bottom: 65px;
+    }
+    .services-content li:last-child {
+        margin-bottom: 0;
+    }
+    .services-content li p{
+        padding: 0;
+    }
+}
