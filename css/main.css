@@ -21,27 +21,17 @@ body {
 
 .primero {
     flex-grow: 1;
+    flex-basis: 120px;
 }
 
 .segundo {
-    flex-grow: 1;
+    flex: 1 250px;
 }
 
 .tercero {
     flex-grow: 2;
 }
 
-.cuarto {
-    flex-grow: 1;
-}
-
-.quinto {
-    flex-grow: 1;
-}
-
-.sexto {
-    flex-grow: 3;
-}
 
 a {
     display: block;
