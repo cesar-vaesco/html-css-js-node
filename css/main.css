@@ -6,10 +6,8 @@ body {
 
 .flex {
     display: flex;
-    width: 350px;
     flex-flow: row wrap;
     height: 200px;
-    color: #fff;
     margin-right: 0;
 }
 
@@ -22,34 +20,27 @@ body {
 }
 
 .primero {
-    background-color: #000;
-    order: 4;
+    flex-grow: 1;
 }
 
 .segundo {
-    background-color: #ff0000;
-    order: 5;
+    flex-grow: 1;
 }
 
 .tercero {
-    background-color: #666;
-    font-weight: bold;
-    order: 2;
+    flex-grow: 2;
 }
 
 .cuarto {
-    background-color: #a52a2a;
-    order: 3;
+    flex-grow: 1;
 }
 
 .quinto {
-    background-color: #a52a8a;
-    order: 0;
+    flex-grow: 1;
 }
 
 .sexto {
-    background-color: #a5a32a;
-    order: 1;
+    flex-grow: 3;
 }
 
 a {
