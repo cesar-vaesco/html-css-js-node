@@ -6,21 +6,50 @@ body {
 
 .flex {
     display: flex;
-    width: 200px;
+    width: 350px;
     flex-flow: row wrap;
-    justify-content: space-evenly;
     height: 200px;
-    align-content: flex-start;
-    align-content: flex-center;
-    align-content: center;
-    align-content: stretch;
-    align-content: space-between;
-    align-content: space-around;
-    align-content: space-evenly;
+    color: #fff;
+    margin-right: 0;
+}
+
+.div {
+    border: solid tomato 3px;
 }
 
 .red {
     background-color: #ff0000;
+}
+
+.primero {
+    background-color: #000;
+    order: 4;
+}
+
+.segundo {
+    background-color: #ff0000;
+    order: 5;
+}
+
+.tercero {
+    background-color: #666;
+    font-weight: bold;
+    order: 2;
+}
+
+.cuarto {
+    background-color: #a52a2a;
+    order: 3;
+}
+
+.quinto {
+    background-color: #a52a8a;
+    order: 0;
+}
+
+.sexto {
+    background-color: #a5a32a;
+    order: 1;
 }
 
 a {
