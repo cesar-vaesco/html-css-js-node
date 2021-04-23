@@ -283,7 +283,50 @@ ul.services-content {
     .services-content li:last-child {
         margin-bottom: 0;
     }
-    .services-content li p{
+    .services-content li p {
+        padding: 0;
+    }
+}
+
+/*Contacto Area*/
+
+#contact {
+    background-color: #fff;
+}
+
+ul.contact-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.contact-content li i {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+}
+
+.contact-content li p {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .contact-content li{
+        flex-basis: 100%;
+        margin-bottom: 65px;
+    }
+
+    .contact-content li:last-child{
+        margin-bottom: 0;
+    }
+    .contact-content li p{
         padding: 0;
     }
 }
