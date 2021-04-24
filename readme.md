@@ -12,6 +12,9 @@
   </tr>
 </table>
 
+[Tag y código de ejercicio website flexbox](https://github.com/cesar-vaesco/html-css-js-node/releases/tag/v1.0)
+
 ```
 El ejercicio incluye optimización para que el website también muestre tamaño responsive
+
 ```
