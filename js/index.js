@@ -40,3 +40,31 @@ function callback(result) {
 
 
 sumar(2, 3, callback);
+
+
+//fat arrow function
+
+const saludo = () => console.log('Hola Mundo');
+
+saludo();
+
+const restar = (arg1, arg2) => {
+
+    return arg1 - arg2;
+}
+
+
+console.log(restar(4, 6));
+
+const miFatArrowFunction = (a, b) => a + b;
+
+const r = miFatArrowFunction(5, 8);
+
+console.log(r);
+
+const otraFat = (a, b) => {
+
+    return a + b;
+}
+
+console.log('Otra fat: ', otraFat(5, 6));
