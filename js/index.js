@@ -16,7 +16,7 @@ iterar( nombres );
 
  */
 
-function suma(a, b) {
+/* function suma(a, b) {
     return a + b;
 }
 
@@ -27,3 +27,16 @@ const resultadoSuma3 = suma(resultadoSuma, resultadoSuma2);
 console.log('Resultado suma: ', resultadoSuma);
 console.log('Resultado suma2: ', resultadoSuma2);
 console.log('Resultado suma3: ', resultadoSuma3);
+ */
+
+function sumar(a, b, cb) {
+    const result = a + b;
+    cb(result);
+}
+
+function callback(result) {
+    console.log("Resultado: ", result);
+}
+
+
+sumar(2, 3, callback);
