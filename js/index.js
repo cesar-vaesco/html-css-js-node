@@ -68,3 +68,8 @@ const otraFat = (a, b) => {
 }
 
 console.log('Otra fat: ', otraFat(5, 6));
+
+sumar(2 ,3, function( r ){
+
+    console.log('Soy una función anonima y mi resultado es: ', r);
+});
