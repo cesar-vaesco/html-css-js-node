@@ -1,10 +1,12 @@
 
 window.onload = () => {
 
+    const titulo = document.getElementById('titulo');
     const parrafo = document.getElementById('text');
-    const parrafo2 = document.getElementById('text2');
-    /*Pasando texto e forma dinamica a la vista*/
-    parrafo.innerHTML="Texto actualizado....";
-    parrafo2.innerText="Segundo texto actualizado";
+
+    titulo.innerHTML = "Cambiando el saludo";
+
+    parrafo.innerHTML = "<li>Elemento 1</li> <li>Elemento 2</li>";
+
 
 }
