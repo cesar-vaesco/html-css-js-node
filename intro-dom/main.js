@@ -16,15 +16,15 @@ window.onload = () => {
         todos.push(todoText);
         //Apuntamos a la referencia donde se van agragar las tareas
         const todoList = document.getElementById('todo-list');
-        // Se limpia el arreglo con la iguiente instrucción
-        // para evitar que el ciclo for vuelva  pintar las tareas y antes
-        // agregadas
-        todoList.innerHTML = '';
-        //El ciclo for permite agregar la lista no ordenadas de tareas
-        for (let i = 0; i < todos.length; i++) {
-            todoList.innerHTML += '<li> ' + todos[i] + '</li>';
-        }
-        console.log(todos);
+
+        //Map crea un nuevo arreglo a partir de un arreglo ya existente
+        const todosTemplate = todos.map(t => '<li>' + t + '</li>');
+
+        //El método join() une todos los elementos de una matriz (o un objeto similar a una matriz) en una cadena y devuelve esta cadena.
+        todoList.innerHTML = todosTemplate.join('');
+
+        console.log(todosTemplate);
+
     }
 
 
