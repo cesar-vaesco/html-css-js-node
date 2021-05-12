@@ -23,8 +23,14 @@ window.onload = () => {
         //El método join() une todos los elementos de una matriz (o un objeto similar a una matriz) en una cadena y devuelve esta cadena.
         todoList.innerHTML = todosTemplate.join('');
 
-        console.log(todosTemplate);
+        const elementos = document.querySelectorAll('#todo-list li');
 
+        elementos.forEach((elemento, i) =>{
+            elemento.addEventListener('click', () =>{
+                console.log(elemento, i);
+
+            })
+        })
     }
 
 
