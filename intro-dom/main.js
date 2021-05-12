@@ -1,7 +1,7 @@
 //Crea un arreglo donde se van almacenar las tareas
-const todos = [];
+const todos = JSON.parse(localStorage.getItem('todos')) || [];
 
-const render = () =>{
+const render = () => {
     //Apuntamos a la referencia donde se van agragar las tareas
     const todoList = document.getElementById('todo-list');
 
@@ -19,16 +19,24 @@ const render = () =>{
         //Agregamos un evento al elemento escuchando el evento click
         elemento.addEventListener('click', () => {
 
+            //selecciona un elemento para poder removerlo
             elemento.parentNode.removeChild(elemento);
             todos.splice(i, 1);
+            actualizarTodos();
+            //Renderiza todos los elementos
             render();
             console.log(todos, i);
         });
     });
 }
 
-window.onload = () => {
+const actualizarTodos= ()=>{
+    const todosStrings = JSON.stringify(todos);
+    localStorage.setItem('todos', todosStrings);
+}
 
+window.onload = () => {
+    render();
     const form = document.getElementById("todo-form");
     form.onsubmit = (event) => {
 
@@ -40,6 +48,8 @@ window.onload = () => {
 
         //Agregar treas al arreglo todos
         todos.push(todoText);
+
+        actualizarTodos();
 
         render();
 
