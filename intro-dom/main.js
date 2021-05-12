@@ -1,12 +1,17 @@
 
 window.onload = () => {
 
-    const titulo = document.getElementById('titulo');
-    const parrafo = document.getElementById('text');
+    const form = document.getElementById("todo-form");
+    form.onsubmit = (event) => {
 
-    titulo.innerHTML = "Cambiando el saludo";
+        event.preventDefault();
 
-    parrafo.innerHTML = "<li>Elemento 1</li> <li>Elemento 2</li>";
+        const todo = document.getElementById("todo");
+        const todoText = todo.value;
+        todo.value = '';
+
+        console.log(todoText);
+    }
 
 
 }
