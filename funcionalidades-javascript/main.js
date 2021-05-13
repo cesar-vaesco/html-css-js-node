@@ -1,9 +1,9 @@
 
-const a = { b:1 }
+const a = { b: 1 }
 
 const b = a;
 
-console.log( a === b);
+console.log(a === b);
 
 /**
  * Spread operator de arrays
@@ -17,4 +17,13 @@ sin que el resultado sean arrays anidados, si no un
 
 //el objeto c es un objeto independiebnte de a aunque
 // contengan algunos elementos en común o que c fue creado basandose en a
-const c = { ...a}
+const c = { ...a }
+
+/* Promise.resolve(2)
+    .then(valor => {
+        console.log(`valor: ${valor}`)
+    }) */
+
+Promise.resolve(2)
+    .then(valor => valor + 1)
+    .then(valor => console.log(valor))
