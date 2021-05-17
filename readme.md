@@ -20,19 +20,31 @@ Dependencias usadas en la práctica:
 <table>
   <tr>
     <td>Dependencia</td>
-    <td>Comando de instalación</td>
+    <td width="250">Comando de instalación</td>
     <td>Descripción</td>
   </tr>
   <tr>
     <td>Express</td>
-    <td width="250">
+    <td >
         <li>npm i -S express</li>
         <li>npm i -S express@version_requerida</li>
     </td>
     <td>Express.js, o simplemente Express, es un marco de aplicación web de back-end para Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Se le ha llamado el marco de servidor estándar de facto para Node.js.</td>
   </tr>
+      <td>Vercel</td>
+    <td >
+        <li>npm i -g vercel</li>
+    </td>
+    <td>
+        <li>Vercel es una plataforma en la nube para sitios estáticos y funciones sin servidor que se adapta perfectamente a un flujo de trabajo. Permite alojar sitios web y servicios web que se implementan instantáneamente, escalan automáticamente y no requieren supervisión, todo sin configuración.</li>
+        <li>Iniciar proyecto con vercel, usar el comando: <strong> vercel init. Para el ejemplo se usara <i>custom build</i></strong></li>
+        <li>Dirigirse a la carpeta <i>custom build</i> dentro del workspace para trabajar en el proyecto</li>
+    </td>
+
+  </tr>
 </table>
 
+<br>
 
 
 
