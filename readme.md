@@ -39,6 +39,16 @@ Dependencias usadas en la práctica:
         <li>Vercel es una plataforma en la nube para sitios estáticos y funciones sin servidor que se adapta perfectamente a un flujo de trabajo. Permite alojar sitios web y servicios web que se implementan instantáneamente, escalan automáticamente y no requieren supervisión, todo sin configuración.</li>
         <li>Iniciar proyecto con vercel, usar el comando: <strong> vercel init. Para el ejemplo se usara <i>custom build</i></strong></li>
         <li>Dirigirse a la carpeta <i>custom build</i> dentro del workspace para trabajar en el proyecto</li>
+        <ul>
+            <br>
+            <strong>Pasos par vincular proyecto a Vercel:</strong>
+            <li>Inicializar con comando <strong>vercel</strong> en el directorio donde se ha construido el proyecto</li>
+            <li>set up and deploy - configurar e implementar: Y</li>
+            <li>Which scope do you want to deploy to? - Elegir ámbito a implementar</li>
+            <li>Link tp existing proyect? - Eligir si eseamos vincular a proyecto existente</li>
+            <li>What´s your project´s name? - Elegir nombre del proyecto</li>
+            <li>Is which directory is your code located? - Indicar la ruta donde se va a almacenar nuestro proyecto</li>
+        </ul>
     </td>
 
   </tr>
