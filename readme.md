@@ -14,7 +14,7 @@ Un package.json archivo:
 - especifica versiones de un paquete que su proyecto puede usar usando reglas de control de versiones semánticas
 - hace que su construcción sea reproducible y, por lo tanto, más fácil de compartir con otros desarrolladores
 ```
-
+<hr>
 Dependencias usadas en la práctica:
 
 <table>
@@ -23,6 +23,7 @@ Dependencias usadas en la práctica:
     <td width="250">Comando de instalación</td>
     <td>Descripción</td>
   </tr>
+
   <tr>
     <td>Express</td>
     <td >
@@ -31,6 +32,8 @@ Dependencias usadas en la práctica:
     </td>
     <td>Express.js, o simplemente Express, es un marco de aplicación web de back-end para Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Se le ha llamado el marco de servidor estándar de facto para Node.js.</td>
   </tr>
+
+  <tr>
       <td>Vercel</td>
     <td >
         <li>npm i -g vercel</li>
@@ -50,14 +53,49 @@ Dependencias usadas en la práctica:
             <li>Is which directory is your code located? - Indicar la ruta donde se va a almacenar nuestro proyecto</li>
         </ul>
     </td>
-
   </tr>
-</table>
 
+  <tr>
+    <td>Mongoose</td>
+    <td>npm install mongoose</td>
+    <td>Mongoose es una herramienta de modelado de objetos de MongoDB diseñada para funcionar en un entorno asincrónico. Mongoose admite promesas y devoluciones de llamada.</td>
+  </tr>
+
+   <tr>
+    <td>body-parse</td>
+    <td>npm install body-parser</td>
+    <td><strong>Middleware</strong>de análisis del cuerpo de Node.js. Analiza los cuerpos de las solicitudes entrantes en un <strong>Middleware</strong> antes que sus controladores, disponible en la propiedad req.body.</td>
+  </tr>
+
+   <tr>
+    <td>cors</td>
+    <td>npm install cors</td>
+    <td>CORS es un paquete node.js para proporcionar un <strong>Middleware</strong> Connect / Express que se puede usar para habilitar CORS con varias opciones.</td>
+  </tr>
+
+
+</table>
+ <p><cite><strong>*** Middleware</strong> es software que se sitúa entre un sistema operativo y las aplicaciones que se ejecutan en él. Básicamente, funciona como una capa de traducción oculta para permitir la comunicación y la administración de datos en aplicaciones distribuidas..</cite></p>
+ <hr>
 <br>
 
 
+### Pasos para conectar nuestra base de datos a Vercel
 
+<ol>
+    <li>Crear nuestro cluster en mongo</li>
+    <li>Connect: en la nube de mongo crear la url de conección y copiarla
+        <ul>* En caso de no recordar usuario y contraseña dirigirse a Database Access y crear o editar usuario y contraseña</ul>
+    </li>
+    <li>Editar la url de conexión agregando conraseña de usuario y el nombre que se le va a dar a la base da dato</li>
+    <li>En Vercel, dirigirse a la carpeta donde esta almacenada nuestra app y buscar la pestaña de setings</li>
+    <li>En settings editar las variables de entorno</li>
+    <li>En variables de entorno agregar el nombre de las variables de entorno y la url que va servir para generar l conexión
+        <ul>
+            *** Asegurarse de que los ámbientes de producción, preview y development tengan asignada la variable
+        </ul>
+    </li>
+</ol>
 
 
 
